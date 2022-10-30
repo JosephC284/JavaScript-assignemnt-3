@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="movies">Information on Movies:</label>
+      <div>
+        <select name="movies" id="movies">
+          <option value="Avengers Endgame">Avengers Endgame</option>
+          <option value="Avengers Infinity War">Avengers Infinity War</option>
+          <option value="Avengers Age of Ultron">Avengers Age of Ultron</option>
+          <option value="The Avengers">The Avengers</option>
+          <option value="Ant-Man">Ant-Man</option>
+          <option value="Captain America: Civil War">Captain America: Civil War</option>
+          <option value="Black Panther">Black Panther</option>
+          <option value="Guardians of the Galaxy Vol. 2">Guardians of the Galaxy Vol. 2</option>
+          <option value="Iron Man">Iron Man</option>
+          <option value="Thor Ragnarok">Thor Ragnarok</option>
+        </select>
+      </div>
+    <input type="button" value="Get" onclick="retriveInfo();">
+    <div id="output">
+
+    </div> 
+      
+  </form>
+</body>
+</html>
