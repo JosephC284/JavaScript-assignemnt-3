@@ -1,3 +1,70 @@
-div {
-  margin: auto;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.selector{
+  background-color: skyblue;
+  border: 4px;
+  border-style: solid;
+  border-color: blue;
+  font-size: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 0px;
+  text-align: center;
+}
+
+#output {
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-width: 5px;
+  background-color: skyblue;
+;
+}
+
+p {
+  border-style: solid;
+  border-width: 4px;
+  background-color: mediumblue;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 5px;
+}
+
+img {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 300px;
+}
+
+iframe {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 500px;
+}
+
+body {
+  background-color: midnightblue;
+}
+
+label {
+  font-family: Impact, 'Haettenschweiler', sans-serif;
+  color: white;
+}
+
+select {
+  font-family: Impact, 'Haettenschweiler', sans-serif;;
 }
